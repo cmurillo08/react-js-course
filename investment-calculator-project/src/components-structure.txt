@@ -1,0 +1,10 @@
+
+Header
+    img
+    h1
+
+Div / UserInput
+4 inputs
+
+Div / Result component
+Table with results
