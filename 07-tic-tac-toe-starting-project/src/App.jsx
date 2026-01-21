@@ -60,7 +60,7 @@ function deriveGameBoard(gameTurns){
 
 function App() {
   const [players, setPlayers] = useState(PLAYERS);
-  const [ gameTurns, setGameTurns ] = useState([]);
+  const [gameTurns, setGameTurns] = useState([]);
 
   const activePlayer = deriveActivePlayer(gameTurns);
   const gameBoard = deriveGameBoard(gameTurns);
@@ -100,7 +100,7 @@ function App() {
           <Player 
             initialName={PLAYERS.X} 
             symbol="X"
-            sActive={activePlayer === 'X'}
+            isActive={activePlayer === 'X'}
             onChangeName={handlePlayerNameChange}
           />
           <Player 
