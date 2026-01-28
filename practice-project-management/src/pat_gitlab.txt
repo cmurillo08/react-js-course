@@ -1,0 +1,7 @@
+glpat-XONUAVH-FqMFHk64ZNlq_W86MQp1OmNzCA.01.0y17sabst
+
+git clone https://oauth2:glpat-XONUAVH-FqMFHk64ZNlq_W86MQp1OmNzCA.01.0y17sabst@gitlab.wearegap.com/company-apps/talent-app/
+
+
+git clone https://oauth2:glpat-XONUAVH-FqMFHk64ZNlq_W86MQp1OmNzCA.01.0y17sabst@gitlab.wearegap.com/company-apps/talent-app/talent-app-back.git
+git clone https://gitlab.wearegap.com/company-apps/talent-app/talent-app-back.git
