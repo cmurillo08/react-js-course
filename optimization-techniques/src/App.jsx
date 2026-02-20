@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import OldCounter from './components/Counter/OldCounter.jsx';
+import Counter from './components/Counter/Counter.jsx';
 import Header from './components/Header.jsx';
 import { log } from './log.js';
 import ConfigureCounter from './components/Counter/ConfigureCounter.jsx';
@@ -13,13 +13,13 @@ function App() {
     setChosenCount(newCount);
   }
 
-
   return (
     <>
       <Header />
       <main>
         <ConfigureCounter onSet={handleSetCount} />
-        <OldCounter initialCount={chosenCount} />
+        <Counter key={chosenCount} initialCount={chosenCount} />
+        <Counter initialCount={0} />
       </main>
     </>
   );
